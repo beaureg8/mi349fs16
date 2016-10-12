@@ -1,0 +1,28 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+h1.header {
+	border:5px solid #000000;
+}
+
+h1#header1 {
+	color: #ff0000;
+	border:5px solid #009933;
+}
+
+h1#header2 {
+	color:#0000ff;
+	border:5px solid #ff0000;
+}
+
+p.content {
+	font-size: 150%;
+}
+
+p#first {
+	color: #0000ff;
+}
+
+p#second {
+	color: #009933;
+}
