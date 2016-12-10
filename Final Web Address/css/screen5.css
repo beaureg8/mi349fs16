@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Sanchez');
+
+body.basic {
+	background: #225954;
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	padding: 25px;
+	border: 10px solid #6d6c6c;
+	min-height: 768px;
+}
+
+p {
+	font-size: 20px;
+	background: #0f5180;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Sanchez', serif;
+	
+}
+
+h1 {
+	color: #ffffff;
+	margin: 0 auto;
+	text-align: center;
+	font-family:'Domine', serif;
+}
+
+figure.HeaderImg {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.header-img {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	background: #225954;
+}
+
+nav {
+	width: 100%;
+	background: #0f5180;
+	border: 5px solid #000000;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 10px;
+}
+
+nav ul li {
+	list-style: none;
+	flex-grow: 1;
+	text-align: center;
+}
+
+
+nav ul li a {
+	display: block;
+	background: #6d6c6c;
+	text-decoration: none;
+	border: 2px solid #000000;
+	margin: 5px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+p.P1 {
+	border: 5px solid #000000;
+	color: #ffffff;
+}
+
+
+p.P3 {
+	border: 5px solid #000000;
+	color: #ffffff;
+}
+
+p.P5 {
+	border: 5px solid #000000;
+	font-size: 32px;
+	padding: 5px;
+}
+
+p.P6 {
+	border: 5px solid #000000;
+}
+p.main-paragraph {
+	width: 100%;
+	height: auto;
+	max-height: 318px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-size: 1.9vh;
+	font-family: initial;
+
+}
+
+p.footerP {
+	font-size: 28px;
+	border: 5px solid #000000;
+	margin: 0 auto;
+}
+
+h1.footerh1 {
+	margin: 0 auto;
+}
+
+h1.Contact {
+	font-size: ;
+	margin: 5px 0px -5px 0px;
+}
+
+.About-us-h1 {
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	font-size: 32px;
+}
+
+.content1 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex: 1 1 auto;
+}
+
+
+.content2 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 1 1 auto;
+}
+
+.content3 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 1 1 auto;
+}
+
+
+.content1 figure {
+	flex: 2 1 0;
+}
+
+.content4 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 1 1 auto;
+}
+
+img.Logo {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+img.Logo {
+	border-bottom: 3px solid #000000;
+}
+
+
+article.about-us {
+	width: 35%;
+	height: auto;
+	margin: 7px;
+	background: #0f5180;
+	border: 7px solid black;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+}
+
+figure.PacerImg {
+	width: 100%;
+	height: 500px;
+
+	margin: 7px;
+	border: 8px solid #000000;
+}
+
+figcaption.Caption1 {
+	color: #ffffff;
+	text-align: center;
+}
+
+.SecondPhoto {
+	width: 100%;
+	height: 95%;
+}
+
+h1.CatH1 {
+	font-size: 20px;
+	color: #ffffff;
+	margin: 5px auto;
+}
+
+section.Catterpillar-services {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+
+section.Painting {
+	width: 100%;
+	height: auto;
+}
+
+figure.Services {
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+img.ServicesImg {
+	width: 100%;
+	border: 5px solid #000000;
+}
+
+figure.Painting-Examples {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding-bottom: 6px;
+	border: 5px solid #000000;
+}
+img.Painting1 {
+	width: 32%;
+	height: auto;
+	margin: 2px;
+	border: 2px solid #000000;
+}
+
+img.Painting2 {
+	width: 32%;
+	height: auto;
+	margin: 2px;
+	border: 1px solid #000000;
+}
+
+img.Painting3 {
+	width: 32%;
+	height: auto;
+	margin: 2px;
+	border: 1px solid #000000;
+}
+
+figcaption.Caption2 {
+	text-align: center;
+	color: #ffffff;
+}
+
+aside.CatLogo {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+figure.Sign {
+	width: 40%;
+	height: auto;
+	margin: 5px auto;
+}
+
+img.Help {
+	width: 100%;
+	height: auto;
+	margin: 5px auto;
+	border: 5px solid #000000;
+}
+
+footer.Footer {
+	margin: 0 auto;
+}
+
+button {
+	width: 20%;
+}
+
+@media (max-width: 886px) {
+	figure.Painting-Examples {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 0 auto;
+		flex: 1 1 0;
+	}
+	img.Painting1 {
+		width: 95%;
+		height: auto;
+		margin: 5px auto;
+	}
+	img.Painting2 {
+		width: 95%;
+		height: auto;
+		margin: 5px auto;
+	}
+	img.Painting3 {
+		width: 95%;
+		height: auto;
+		margin: 5px auto;
+	}
+}
+
+@media (max-width: 998px) {
+	.content1 {
+		flex-direction: column;
+		flex: 1 1 0;
+	}
+	
+	figure.PacerImg {
+		margin: 5px auto;
+	}
+	
+	p.main-paragraph {
+		font-size: 2.5vh;
+		margin: 5px auto;
+		border: 5px solid #000000;
+		border-radius: 20px;
+	}
+	
+	article.about-us {
+		border: none;
+		width: 100%;
+		margin: 5px auto;
+	}
+	
+	
+	h1.About-us-h1 {
+		background: #225954 ;
+		padding: 5px;
+	}
+	aside.CatLogo {
+		display: none;
+	}
+	p.footerP {
+		font-size: 18px;
+		margin: 0 auto;
+	}
+	
+	
+}
+
+
+
+
+
